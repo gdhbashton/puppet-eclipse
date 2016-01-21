@@ -1,0 +1,15 @@
+{
+  "name": "mjanser-eclipse",
+  "version": "0.2.1",
+  "author": "Martin Janser",
+  "summary": "Install Eclipse",
+  "license": "MIT",
+  "source": "git://github.com/mjanser/puppet-eclipse.git",
+  "project_page": "https://github.com/mjanser/puppet-eclipse.git",
+  "issues_url": "https://github.com/mjanser/puppet-eclipse/issues",
+  "description": "Install Eclipse with plugins",
+  "dependencies": [
+    {"name":"camptocamp/archive","version_requirement":">= 0.2.0"}
+  ]
+}
+
