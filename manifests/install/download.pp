@@ -10,7 +10,7 @@ class eclipse::install::download (
   $package         = 'standard',
   $release_name    = 'kepler',
   $service_release = 'SR1',
-  $mirror          = 'http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror',
+  $mirror          = 'http://ftp.heanet.ie/pub/eclipse',
   $owner_group     = undef,
   $ensure          = present
 ) {
